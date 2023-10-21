@@ -23,7 +23,7 @@ Download either the zip or tar.gz file from [the latest release](https://github.
 
 Extract the folder called style_frame_files into your project folder
 
-Add the contents of AddToMakefile.txt to the bottom of your make file
+Add the contents of AddToMakefile.txt to the bottom of your Makefile
 
 Step 3: Prepare StyleFrame base
 
