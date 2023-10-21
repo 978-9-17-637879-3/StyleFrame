@@ -13,7 +13,7 @@ For Windows, follow [this guide](https://docs.docker.com/desktop/install/windows
 
 For MacOS, follow [this guide](https://docs.docker.com/desktop/install/mac-install/). Be sure to download the version that matches your system (Intel vs Apple chip)
 
-For Linux, follow [this guide](https://docs.docker.com/desktop/install/linux-install/), enable and start the docker service as well
+For Linux, follow [this guide](https://docs.docker.com/engine/install/#server), enable and start the docker service as well. Unlike MacOS and Windows, you don't need to worry about anything related to Docker Desktop, as you only have Docker engine.
 
 Under settings in docker desktop, make sure "Start Docker Desktop when you log in" is enabled, and "Send usage statistics" + "Open Docker Dashboard at startup" are disabled
 
