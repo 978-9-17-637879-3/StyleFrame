@@ -31,6 +31,8 @@ Wherever you normally run make commands, run `make create_style_frame`
 
 If the installation was successful, you should see some licenses printed out that you have to read
 
+If the installation fails due to timeout or similar, run the command a few more times, if it still doesn't success, follow the instructions at "How to report issues" near the bottom of this page.
+
 ## How to use:
 
 When you wish to perform a style check, run `make style_frame`
