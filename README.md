@@ -7,7 +7,7 @@
 
 Step 1: Install Docker
 
-For Windows, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers#install-docker-desktop), steps 1 through 6 under "Install Docker Desktop"
+For Windows, follow [this guide](https://docs.docker.com/desktop/install/windows-install/#install-docker-desktop-on-windows), then [this guide](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers#install-docker-desktop), steps 1 through 6 under "Install Docker Desktop"
 
 For MacOS, follow [this guide](https://docs.docker.com/desktop/install/mac-install/). Be sure to download the version that matches your system (Intel vs Apple chip)
 
