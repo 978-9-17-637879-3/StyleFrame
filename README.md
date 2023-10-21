@@ -15,6 +15,8 @@ For MacOS, follow [this guide](https://docs.docker.com/desktop/install/mac-insta
 
 For Linux, follow [this guide](https://docs.docker.com/desktop/install/linux-install/), enable and start the docker service as well
 
+Under settings in docker desktop, make sure "Start Docker Desktop when you log in" is enabled, and "Send usage statistics" + "Open Docker Dashboard at startup" are disabled
+
 Step 2: Install StyleFrame
 
 Download either the zip or tar.gz file from [the latest release](https://github.com/978-9-17-637879-3/StyleFrame/releases)
