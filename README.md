@@ -15,7 +15,7 @@ For Linux, follow [this guide](https://docs.docker.com/desktop/install/linux-ins
 
 Step 2: Install StyleFrame
 
-Download the zip file from [the latest release](https://github.com/978-9-17-637879-3/StyleFrame/releases)
+Download either the zip or tar.gz file from [the latest release](https://github.com/978-9-17-637879-3/StyleFrame/releases)
 
 Extract the folder called style_frame_files into your project folder
 
