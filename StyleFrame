@@ -1,0 +1,12 @@
+FROM ubuntu:22.04
+RUN apt update && apt install wget unzip make g++ openjdk-8-jre-headless libtinfo5 -y
+WORKDIR "/root"
+# https://github.com/oclint/oclint/issues/584#issue-738194913
+RUN wget https://github.com/oclint/oclint/releases/download/v0.13/oclint-0.13-x86_64-linux-4.4.0-93-generic.tar.gz \
+              && mkdir oclint-release \
+              && tar xf oclint-0.13-x86_64-linux-4.4.0-93-generic.tar.gz -C oclint-release --strip-components 1 \
+              && chmod +x oclint-release/bin/oclint
+RUN rm oclint-0.13-x86_64-linux-4.4.0-93-generic.tar.gz
+RUN wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.0.1/pmd-bin-6.0.1.zip
+RUN unzip pmd-bin-6.0.1.zip
+RUN rm pmd-bin-6.0.1.zip
