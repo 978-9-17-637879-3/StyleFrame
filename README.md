@@ -1,7 +1,7 @@
 # StyleFrame: Run EECS280 style checks on your own computer — No CAEN needed!
 
 ## Requirements:
-* ~1G of available space
+* A few gigabytes of available space
 
 ## Installation instructions:
 
