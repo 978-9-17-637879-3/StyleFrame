@@ -1,5 +1,0 @@
-FROM style-frame-base:latest
-RUN mkdir src
-WORKDIR "/root/src/"
-COPY * /root/src/
-RUN sed -i -e s#/usr/um/pmd-6.0.1#../pmd-bin-6.0.1#g -e s#/usr/um/oclint-0.13#../oclint-release#g Makefile
