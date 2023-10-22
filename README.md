@@ -19,7 +19,7 @@ Under settings in docker desktop, make sure "Start Docker Desktop when you log i
 
 Step 2: Install StyleFrame
 
-Download either the zip or tar.gz file from [the latest release](https://github.com/978-9-17-637879-3/StyleFrame/releases)
+Download either the zip or tar.gz file from [the latest release](https://github.com/978-9-17-637879-3/StyleFrame/releases) with respect to your computer type
 
 Extract the style_frame_files folder into your project folder
 
