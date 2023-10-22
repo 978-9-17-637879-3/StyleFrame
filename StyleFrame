@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM --platform=linux/amd64 ubuntu:22.04
 RUN apt update && apt install wget unzip make g++ openjdk-8-jre-headless libtinfo5 -y
 WORKDIR "/root"
 # https://github.com/oclint/oclint/issues/584#issue-738194913

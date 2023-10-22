@@ -1,4 +1,4 @@
-FROM style-frame-base:latest
+FROM --platform=linux/amd64 style-frame-base:latest
 RUN mkdir src
 WORKDIR "/root/src/"
 COPY * /root/src/
