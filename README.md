@@ -21,7 +21,7 @@ Step 2: Install StyleFrame
 
 Download either the zip or tar.gz file from [the latest release](https://github.com/978-9-17-637879-3/StyleFrame/releases)
 
-Extract the folder called style_frame_files into your project folder
+Extract the style_frame_files folder into your project folder
 
 Add the contents of AddToMakefile.txt to the bottom of your Makefile
 
