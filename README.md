@@ -11,7 +11,7 @@ Note: do not make a docker account, it's completely unnecessary.
 
 For Windows, follow [this guide](https://docs.docker.com/desktop/install/windows-install/#install-docker-desktop-on-windows), then [this guide](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers#install-docker-desktop), steps 1 through 6 under "Install Docker Desktop"
 
-For MacOS, follow [this guide](https://docs.docker.com/desktop/install/mac-install/). Be sure to download the version that matches your system (Intel vs Apple chip)
+For MacOS, follow [this guide](https://docs.docker.com/desktop/install/mac-install/). Be sure to download the version that matches your system (M1/M2/etc is Apple Silicon, everything else is Intel)
 
 For Linux, follow [this guide](https://docs.docker.com/engine/install/#server), enable and start the docker service as well. Unlike MacOS and Windows, you don't need to worry about anything related to Docker Desktop, as you only have Docker engine.
 
