@@ -1,5 +1,9 @@
 # StyleFrame: Run EECS280 style checks on your own computer — No CAEN needed!
 
+## Credits:
+* Apple silicon fix from https://stackoverflow.com/a/71611002
+* Thanks to Nia for helping test!
+
 ## Requirements:
 * A few gigabytes of available space
 
