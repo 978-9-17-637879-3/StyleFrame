@@ -41,6 +41,13 @@ If the installation fails due to timeout or similar, run the command a few more 
 
 When you wish to perform a style check, run `make style_frame`
 
+## Common issues:
+
+* ERROR [internal] load metadata for docker.io/library/style-frame-base:latest 
+
+Docker could not find the StyleFrame base on your computer. run `make create_style_frame` and see if the issue persists
+
+
 ## How to report issues:
 
 Add a followup discussion to the Piazza thread, make a [GitHub issue](https://github.com/978-9-17-637879-3/StyleFrame/issues), or contact me via your umich email (my unique name is in my Piazza name)
