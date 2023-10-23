@@ -43,9 +43,20 @@ When you wish to perform a style check, run `make style_frame`
 
 ## Common issues:
 
-* ERROR [internal] load metadata for docker.io/library/style-frame-base:latest 
+**ERROR [internal] load metadata for docker.io/library/style-frame-base:latest**
 
-Docker could not find the StyleFrame base on your computer. run `make create_style_frame` and see if the issue persists
+* Docker could not find the StyleFrame base on your computer. run `make create_style_frame` and see if the issue persists
+
+**ERROR: failed to solve: style-frame-base:latest: failed to authorize: failed to fetch anonymous token: Get "https<nolink>://auth.docker.io/token?scope=repository%3Alibrary%2Fstyle-frame-base%3Apull&service=registry.docker.io": dial tcp: lookup auth.docker.io: i/o timeout**
+
+* Docker could not connect to its servers. Possible solutions (perform them in this order, checking if the command works after each step):
+
+  1. Disconnect and reconnect your internet
+  2. Go to docker desktop settings -> resources -> network, then turn on manual dns configuration and use 1.1.1.1 for the DNS
+  3. Quit Docker Desktop, then reopen (do not use the restart option)
+  4. Restart your computer
+
+* If the issue still persists after all of these steps, contact me via a method listed below.
 
 
 ## How to report issues:
