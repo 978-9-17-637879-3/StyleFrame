@@ -1,0 +1,8 @@
+# Shows the output of StyleFrame in the terminal and passes to grep to match 
+# the errors corresponding to CPD fail and OCLint fail respectively
+
+# Sends command output to stderr as git doesn't seem to want show the output when sent to stdout
+if make style_frame | tee /dev/stderr | grep -q "style] Error"; then
+  echo "[StyleFrame] STYLE CHECK FAILED, COMMIT BLOCKED."
+  exit 1
+fi
