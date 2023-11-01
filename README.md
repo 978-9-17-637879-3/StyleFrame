@@ -37,6 +37,12 @@ If the installation was successful, you should see some licenses printed out tha
 
 If the installation fails due to timeout or similar, run the command a few more times, if it still doesn't success, follow the instructions at "How to report issues" near the bottom of this page.
 
+Step 4 (**OPTIONAL**): Add git pre-commit hook
+
+If you use git and would like StyleFrame to automatically prevent you from committing when you have files that do not pass the style check, copy the file called "pre-commit" into your project folder, specifically the "hooks" folder inside the ".git" folder
+
+Note that ".git" is hidden by default and you may need to search something along the lines of "how to show hidden files on XYZ computer"
+
 ## How to use:
 
 When you wish to perform a style check, run `make style_frame`
