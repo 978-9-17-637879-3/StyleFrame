@@ -3,6 +3,7 @@
 ## Credits:
 * Apple silicon fix from https://stackoverflow.com/a/71611002
 * Thanks to Nia for helping test!
+* Thanks to Zalan Shah for coming up with the pre-commit hook idea!
 
 ## Requirements:
 * A few gigabytes of available space
