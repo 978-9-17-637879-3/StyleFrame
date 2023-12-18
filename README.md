@@ -6,7 +6,7 @@
 * Thanks to Zalan Shah for coming up with the pre-commit hook idea!
 
 ## Requirements:
-* A few gigabytes of available space
+* If you don't already have docker installed and setup: ~8 gigabytes of available space.
 
 ## Installation instructions:
 
