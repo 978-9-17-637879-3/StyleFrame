@@ -68,4 +68,4 @@ When you wish to perform a style check, run `make style_frame`
 
 ## How to report issues:
 
-Add a followup discussion to the Piazza thread, make a [GitHub issue](https://github.com/978-9-17-637879-3/StyleFrame/issues), or contact me via your umich email (my unique name is in my Piazza name)
+Add a followup discussion to the Piazza thread, make a [GitHub issue](https://github.com/978-9-17-637879-3/StyleFrame/issues), or contact me via your umich email (my uniqname is in my Piazza name)
